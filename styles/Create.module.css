@@ -1,0 +1,41 @@
+.container {
+
+    height: var(--full-height);
+    width: var(--full-width);
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.main {
+    flex: 1;
+}
+
+.heroText {
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+.bottom {
+    width: var(--full-width);
+}
+
+.bottom > button {
+    width: var(--full-width);
+    height: 5vh;
+}
+
+.activityTypesContainer {
+    display: flex;
+    gap: 1px;
+}
+
+.activityTypesContainer > * {
+    flex: 1;
+    text-align: center;
+    background-color: burlywood;
+    padding: 1rem;
+}
