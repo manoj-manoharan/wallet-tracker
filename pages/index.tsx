@@ -14,21 +14,86 @@ const Home: NextPage = () => {
                     <h2>Wallet Balance: $100</h2>
                 </div>
 
+                <hr/>
+
+                <div className={styles.latestActivities}>
+                    <h2>Last 10 Expenses</h2>
+                    <table className={styles.activityTable}>
+                        <tr>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>Category</th>
+                        </tr>
+                        <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                        </tr>
+                         <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                        </tr>
+                         <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                        </tr>
+                         <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                        </tr>
+                         <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                        </tr>
+                         <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                        </tr>
+                         <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                        </tr>
+                         <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                        </tr>
+                         <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                        </tr>
+                        <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+            <div className={styles.bottom}>
                 <div className={styles.walletWholeAnalytics}>
+
                     <div className={styles.incomeAndExpense}>
                         <h4>Income: $100</h4>
                         <h4>Expense: $100</h4>
                     </div>
+
                     <div className={styles.timePeriods}>
                         <small className={styles.timePeriodActive}>Day</small>
                         <small>Week</small>
                         <small>Month</small>
                         <small>Year</small>
                     </div>
-                </div>
 
-            </div>
-            <div className={styles.bottom}>
+                </div>
                 <button className={styles.addButton}>Add</button>
             </div>
         </div>

@@ -26,7 +26,7 @@
 }
 
 .walletWholeAnalytics {
-    border: 1px solid salmon;
+    border: 1px solid coral;
     padding: 0.5rem;
     border-radius: 2px;
 }
@@ -54,6 +54,21 @@
     background-color: white;
     color: coral;
     border: 1px solid coral;
+}
+
+.latestActivities {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activityTable {
+    text-align: left;
+}
+
+.activityTable th, .activityTable td {
+    padding: 0.5rem 1rem;
 }
 
 .bottom {
