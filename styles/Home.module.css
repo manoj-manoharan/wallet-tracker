@@ -16,7 +16,7 @@
     padding: 0.5rem 0;
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: burlywood;
 }
 
 .walletBalance {
@@ -26,13 +26,14 @@
 }
 
 .walletWholeAnalytics {
-    border: 1px solid coral;
+    margin-top: 1rem;
+    border: 1px solid burlywood;
     padding: 0.5rem;
     border-radius: 2px;
 }
 
 .incomeAndExpense {
-    padding: 1rem 1rem;
+    padding: 0.2rem 1rem 1rem 1rem;
     display: flex;
     justify-content: space-evenly;
 }
@@ -43,7 +44,7 @@
 }
 
 .timePeriods > * {
-    background-color: coral;
+    background-color: burlywood;
     color: white;
     font-weight: bolder;
     padding: 0.5rem;
@@ -52,8 +53,8 @@
 
 .timePeriodActive {
     background-color: white;
-    color: coral;
-    border: 1px solid coral;
+    color: burlywood;
+    border: 1px solid burlywood;
 }
 
 .latestActivities {
@@ -64,11 +65,21 @@
 }
 
 .activityTable {
+    margin-top: 1rem;
     text-align: left;
 }
 
 .activityTable th, .activityTable td {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
+}
+
+.activityTable .icon {
+    padding: 0 0.5rem;
+}
+
+.activityTable tr:nth-child(odd) {
+    color: white;
+    background-color: burlywood;
 }
 
 .bottom {

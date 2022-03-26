@@ -1,4 +1,9 @@
 import {NextPage} from "next";
+import Link from 'next/link'
+
+import {faRemove, faPen} from '@fortawesome/free-solid-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -23,56 +28,97 @@ const Home: NextPage = () => {
                             <th>Date</th>
                             <th>Amount</th>
                             <th>Category</th>
+                            <th>Action</th>
                         </tr>
                         <tr>
                             <td>27 Mar 22</td>
                             <td>$10</td>
                             <td>Food</td>
-                        </tr>
-                         <tr>
-                            <td>27 Mar 22</td>
-                            <td>$10</td>
-                            <td>Food</td>
-                        </tr>
-                         <tr>
-                            <td>27 Mar 22</td>
-                            <td>$10</td>
-                            <td>Food</td>
-                        </tr>
-                         <tr>
-                            <td>27 Mar 22</td>
-                            <td>$10</td>
-                            <td>Food</td>
-                        </tr>
-                         <tr>
-                            <td>27 Mar 22</td>
-                            <td>$10</td>
-                            <td>Food</td>
-                        </tr>
-                         <tr>
-                            <td>27 Mar 22</td>
-                            <td>$10</td>
-                            <td>Food</td>
-                        </tr>
-                         <tr>
-                            <td>27 Mar 22</td>
-                            <td>$10</td>
-                            <td>Food</td>
-                        </tr>
-                         <tr>
-                            <td>27 Mar 22</td>
-                            <td>$10</td>
-                            <td>Food</td>
-                        </tr>
-                         <tr>
-                            <td>27 Mar 22</td>
-                            <td>$10</td>
-                            <td>Food</td>
+                            <td>
+                                <FontAwesomeIcon className={styles.icon} icon={faPen}/>
+                                <FontAwesomeIcon className={styles.icon} icon={faRemove}/>
+                            </td>
                         </tr>
                         <tr>
                             <td>27 Mar 22</td>
                             <td>$10</td>
                             <td>Food</td>
+                            <td>
+                                <FontAwesomeIcon className={styles.icon} icon={faPen}/>
+                                <FontAwesomeIcon className={styles.icon} icon={faRemove}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                            <td>
+                                <FontAwesomeIcon className={styles.icon} icon={faPen}/>
+                                <FontAwesomeIcon className={styles.icon} icon={faRemove}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                            <td>
+                                <FontAwesomeIcon className={styles.icon} icon={faPen}/>
+                                <FontAwesomeIcon className={styles.icon} icon={faRemove}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                            <td>
+                                <FontAwesomeIcon className={styles.icon} icon={faPen}/>
+                                <FontAwesomeIcon className={styles.icon} icon={faRemove}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                            <td>
+                                <FontAwesomeIcon className={styles.icon} icon={faPen}/>
+                                <FontAwesomeIcon className={styles.icon} icon={faRemove}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                            <td>
+                                <FontAwesomeIcon className={styles.icon} icon={faPen}/>
+                                <FontAwesomeIcon className={styles.icon} icon={faRemove}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                            <td>
+                                <FontAwesomeIcon className={styles.icon} icon={faPen}/>
+                                <FontAwesomeIcon className={styles.icon} icon={faRemove}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                            <td>
+                                <FontAwesomeIcon className={styles.icon} icon={faPen}/>
+                                <FontAwesomeIcon className={styles.icon} icon={faRemove}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>27 Mar 22</td>
+                            <td>$10</td>
+                            <td>Food</td>
+                            <td>
+                                <FontAwesomeIcon className={styles.icon} icon={faPen}/>
+                                <FontAwesomeIcon className={styles.icon} icon={faRemove}/>
+                            </td>
                         </tr>
 
                     </table>
@@ -94,7 +140,9 @@ const Home: NextPage = () => {
                     </div>
 
                 </div>
-                <button className={styles.addButton}>Add</button>
+                <Link href="/create">
+                    <button className={styles.addButton}>Add</button>
+                </Link>
             </div>
         </div>
     );
