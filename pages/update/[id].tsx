@@ -1,8 +1,6 @@
-import styles from "../styles/Create.module.css";
-import {faInfoCircle} from '@fortawesome/free-solid-svg-icons'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import styles from "../../styles/Create.module.css";
 
-const Create = () => {
+const UpdateById = () => {
     return (
         <div className={styles.container}>
             <div className={styles.main}>
@@ -37,21 +35,13 @@ const Create = () => {
 
                     <div className={styles.formElement}>
                         <span></span>
-                        <input type="submit" value="Save expense"/>
+                        <input type="submit" value="Update expense"/>
                     </div>
 
-                </div>
-                <small>
-                    <FontAwesomeIcon icon={faInfoCircle}/>
-                     &nbsp;Use below buttons to navigate between creating income or expense
-                </small>
-                <div className={styles.activityTypesContainer}>
-                    <h3>Income</h3>
-                    <h3 className={styles.activeActivityType}>Expense</h3>
                 </div>
             </div>
         </div>
     );
 }
 
-export default Create;
+export default UpdateById;
