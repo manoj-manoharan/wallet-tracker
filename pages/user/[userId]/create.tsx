@@ -1,4 +1,4 @@
-import styles from "../styles/Create.module.css";
+import styles from "@styles/Create.module.css";
 import {faInfoCircle} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
