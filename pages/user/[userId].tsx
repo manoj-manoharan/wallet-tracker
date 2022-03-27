@@ -140,7 +140,7 @@ const Home: NextPage = () => {
                     </div>
 
                 </div>
-                <Link href="/create">
+                <Link href="/create" passHref>
                     <button className={styles.addButton}>Add</button>
                 </Link>
             </div>
